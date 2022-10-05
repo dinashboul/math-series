@@ -1,6 +1,6 @@
 def fibonacci (n):
  if type(n)!= int: 
-   return "please inter your number"   
+   return "please Enter your number"   
 
  if n == 0:
         return 0
@@ -14,7 +14,7 @@ def fibonacci (n):
 
 def lucas (n):
    if type(n)!= int: 
-    return "please inter your number"   
+    return "please Enter your number"   
 
    if n == 0:
         return 2
@@ -28,7 +28,7 @@ def lucas (n):
 
 def sum_series(n, num1=0 ,num2=1):
    if type(n)!= int: 
-    return "please inter your number"  
+    return "please Enter your number"  
 
    if num1 == 0 & num2 == 1 :
       return fibonacci(n)
